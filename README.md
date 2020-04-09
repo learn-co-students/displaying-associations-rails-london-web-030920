@@ -91,7 +91,7 @@ In this domain, the primary use of a category is as a bucket for posts, so we'll
     <li><%= link_to p.title, post_path(p) %></li>
   <% end %>
 </ul>
-```
+``
 
 The object returned by an association method (`posts` in this case) is a [CollectionProxy][collection_proxy], and it responds to most of the methods you can use on an array. Think of it like an array.
 
